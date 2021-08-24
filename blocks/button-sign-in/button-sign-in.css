@@ -1,0 +1,13 @@
+@media (min-width: 1000px) {
+  .button-sign-in {
+    min-width: 58px;
+    min-height: 20px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: #18216D;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+}

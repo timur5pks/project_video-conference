@@ -1,0 +1,12 @@
+.menu__links {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+    .menu__links {
+      display: flex;
+      padding: 0;
+      list-style: none;
+      justify-content: space-between;
+    }
+}

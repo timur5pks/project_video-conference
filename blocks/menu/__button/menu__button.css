@@ -1,0 +1,16 @@
+.menu__button {
+  width: 28px;
+  height: 12px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../../images/menu-button.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1000px) {
+  .menu__button {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.header__top-panel-buttons {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .header__top-panel-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 239px;
+    margin-left: auto;
+  }
+}

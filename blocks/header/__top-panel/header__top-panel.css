@@ -1,0 +1,14 @@
+.header__top-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 56px);
+  max-width: 1400px;
+  margin: 0 auto 41px;
+}
+
+@media (min-width: 1000px) {
+  .header__top-panel {
+    margin: 0 auto 50px;
+  }
+}

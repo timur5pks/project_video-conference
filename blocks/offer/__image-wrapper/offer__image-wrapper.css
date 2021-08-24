@@ -1,0 +1,25 @@
+.offer__image-wrapper {
+  position: relative;
+  width: calc(100% - 24px);
+  max-width: 605px;
+  margin: 41px auto 0;
+}
+
+@media (min-width: 769px) {
+  .offer__image-wrapper {
+    flex-basis: 605px;
+    margin: 0;
+  }
+}
+
+.offer__image-wrapper::before {
+  position: absolute;
+  left: -30%;
+  bottom: 15%;
+  content: '';
+  background-image: url(../../../images/tilde.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 8%;
+  height: 29px;
+}

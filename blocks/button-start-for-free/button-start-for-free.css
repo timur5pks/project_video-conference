@@ -1,0 +1,21 @@
+.button-start-for-free {
+  border: none;
+  border-radius: 6px;
+  background-color: #00ECD0;
+  padding: 0;
+  color: #18216D;
+  min-width: 120px;
+  min-height: 40px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+@media (min-width: 1000px) {
+  .button-start-for-free {
+    min-width: 180px;
+    min-height: 66px;
+    font-size: 17px;
+    line-height: 20px;
+  }
+}

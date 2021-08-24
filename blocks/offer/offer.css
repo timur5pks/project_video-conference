@@ -1,0 +1,8 @@
+@media (min-width: 769px) {
+  .offer {
+    width: calc(100% - 24px);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1206px;
+  }
+}

@@ -1,0 +1,22 @@
+.offer__description {
+  width: calc(100% - 96px);
+  margin: 0 0 34px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .offer__description {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1000px) {
+  .offer__description {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}

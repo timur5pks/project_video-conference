@@ -1,0 +1,14 @@
+@media (min-width: 1000px) {
+  .button-download {
+    min-width: 136px;
+    min-height: 52px;
+    padding: 0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background-color: #18216D;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+  } 
+}

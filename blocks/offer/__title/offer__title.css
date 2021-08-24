@@ -1,0 +1,23 @@
+.offer__title {
+  width: calc(100% - 84px);
+  margin: 0 0 20px;
+  font-size: 28px;
+  line-height: 27px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .offer__title {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1000px) {
+  .offer__title {
+    margin: 0 0 16px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+}

@@ -1,0 +1,9 @@
+@media (min-width: 1000px) {
+  .menu__link {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #18216D;
+  }
+}
