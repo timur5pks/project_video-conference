@@ -1,0 +1,23 @@
+.features-list {
+  display: grid;
+  grid-gap: 48px;
+  width: calc(100% - 54px);
+  max-width: 1120px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media (min-width:769px) {
+  .features-list {
+    grid-template-columns: minmax(280px, 320px) minmax(280px, 320px);
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:1000px) {
+  .features-list {
+    grid-template-columns: minmax(280px, 320px) minmax(280px, 320px) minmax(280px, 320px);
+  }
+}

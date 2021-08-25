@@ -1,0 +1,11 @@
+.features-list__image-reliability {
+  width: 37px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1000px) {
+  .features-list__image-reliability {
+    width: 56px;
+    margin-bottom: 28px;
+  }
+}

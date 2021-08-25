@@ -1,0 +1,14 @@
+.features-list__item-description {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@media (min-width: 1000px) {
+  .features-list__item-description {
+    margin: 0 0 30px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
