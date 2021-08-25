@@ -1,0 +1,10 @@
+.collaborations__microsoft-logo {
+  display: block;
+  width: 70px;
+}
+
+@media (min-width: 1000px) {
+  .collaborations__microsoft-logo {
+    width: 152px;
+  }
+}

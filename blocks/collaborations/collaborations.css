@@ -1,0 +1,5 @@
+.collaborations {
+  width: calc(100% - 48px);
+  max-width: 1110px;
+  padding-bottom: 130px;
+}

@@ -1,0 +1,10 @@
+.collaborations__airbnb-logo {
+  display: block;
+  width: 51px;
+}
+
+@media (min-width: 1000px) {
+  .collaborations__airbnb-logo {
+    width: 112px;
+  }
+}

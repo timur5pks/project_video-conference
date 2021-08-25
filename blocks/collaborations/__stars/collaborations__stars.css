@@ -1,0 +1,11 @@
+.collaborations__stars {
+  width: 55px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+  .collaborations__stars {
+    width: 107px;
+    margin-bottom: 12px;
+  }
+}

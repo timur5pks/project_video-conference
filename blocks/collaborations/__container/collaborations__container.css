@@ -1,0 +1,19 @@
+.collaborations__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1110px;
+  margin-bottom: 22px;
+}
+
+@media (min-width: 769px) {
+  .collaborations__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1000px) {
+  .collaborations__container {
+    margin-bottom: 49px;
+  }
+}

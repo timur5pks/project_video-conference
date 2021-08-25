@@ -1,0 +1,9 @@
+.collaborations__walmart {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .collaborations__walmart {
+    display: block;
+  }
+}

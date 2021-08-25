@@ -1,0 +1,10 @@
+.collaborations__google-logo {
+  display: block;
+  width: 48px;
+}
+
+@media (min-width: 1000px) {
+  .collaborations__google-logo {
+    width: 105px;
+  }
+}

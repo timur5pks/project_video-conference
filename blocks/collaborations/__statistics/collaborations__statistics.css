@@ -1,0 +1,17 @@
+.collaborations__statistics {
+  display: flex;
+  justify-content: space-between;
+  min-width: 203px;
+  margin: 0 auto;
+}
+@media (min-width: 769px) {
+  .collaborations__statistics {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .collaborations__statistics {
+    flex-basis: 337px;
+  }
+}

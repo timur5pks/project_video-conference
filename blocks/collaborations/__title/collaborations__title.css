@@ -1,0 +1,22 @@
+.collaborations__title {
+  max-width: 408px;
+  margin: 0 auto 22px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+@media (min-width: 769px) {
+  .collaborations__title {
+    max-width: 100%;
+    flex-basis: 494px;
+    margin: 0 200px 0 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .collaborations__title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}

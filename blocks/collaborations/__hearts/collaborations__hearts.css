@@ -1,0 +1,11 @@
+.collaborations__hearts {
+  width: 53px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+  .collaborations__hearts {
+    width: 100px;
+    margin-bottom: 12px;
+  } 
+}
